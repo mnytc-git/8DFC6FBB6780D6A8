@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "database_version": "0.1.0",
+  "description": "Curated public platforms for offline query generation.",
+  "platforms": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "domain": "github.com",
+      "categories": [
+        "developer",
+        "portfolio",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 100,
+      "enabled": true
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "domain": "gitlab.com",
+      "categories": [
+        "developer",
+        "portfolio",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 96,
+      "enabled": true
+    },
+    {
+      "id": "codeberg",
+      "name": "Codeberg",
+      "domain": "codeberg.org",
+      "categories": [
+        "developer",
+        "portfolio",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "developer"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 90,
+      "enabled": true
+    },
+    {
+      "id": "sourceforge",
+      "name": "SourceForge",
+      "domain": "sourceforge.net",
+      "categories": [
+        "developer",
+        "portfolio",
+        "product"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 85,
+      "enabled": true
+    },
+    {
+      "id": "stackoverflow",
+      "name": "Stack Overflow",
+      "domain": "stackoverflow.com",
+      "categories": [
+        "developer",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "developer"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 94,
+      "enabled": true
+    },
+    {
+      "id": "devto",
+      "name": "DEV Community",
+      "domain": "dev.to",
+      "categories": [
+        "developer",
+        "publications",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "developer"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 90,
+      "enabled": true
+    },
+    {
+      "id": "hashnode",
+      "name": "Hashnode",
+      "domain": "hashnode.com",
+      "categories": [
+        "developer",
+        "publications",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "developer"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 88,
+      "enabled": true
+    },
+    {
+      "id": "npmjs",
+      "name": "npm",
+      "domain": "npmjs.com",
+      "categories": [
+        "developer",
+        "documentation",
+        "product"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 91,
+      "enabled": true
+    },
+    {
+      "id": "pypi",
+      "name": "Python Package Index",
+      "domain": "pypi.org",
+      "categories": [
+        "developer",
+        "documentation",
+        "product"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 93,
+      "enabled": true
+    },
+    {
+      "id": "rubygems",
+      "name": "RubyGems",
+      "domain": "rubygems.org",
+      "categories": [
+        "developer",
+        "documentation",
+        "product"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 85,
+      "enabled": true
+    },
+    {
+      "id": "crates",
+      "name": "crates.io",
+      "domain": "crates.io",
+      "categories": [
+        "developer",
+        "documentation",
+        "product"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 87,
+      "enabled": true
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "domain": "linkedin.com",
+      "categories": [
+        "professional",
+        "public-profile",
+        "company",
+        "organization"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 97,
+      "enabled": true
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "domain": "medium.com",
+      "categories": [
+        "publications",
+        "portfolio",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 92,
+      "enabled": true
+    },
+    {
+      "id": "substack",
+      "name": "Substack",
+      "domain": "substack.com",
+      "categories": [
+        "publications",
+        "news",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 88,
+      "enabled": true
+    },
+    {
+      "id": "wordpress",
+      "name": "WordPress.com",
+      "domain": "wordpress.com",
+      "categories": [
+        "publications",
+        "portfolio",
+        "public-profile"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 84,
+      "enabled": true
+    },
+    {
+      "id": "blogspot",
+      "name": "Blogger",
+      "domain": "blogspot.com",
+      "categories": [
+        "publications",
+        "portfolio",
+        "archive"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 80,
+      "enabled": true
+    },
+    {
+      "id": "orcid",
+      "name": "ORCID",
+      "domain": "orcid.org",
+      "categories": [
+        "academic",
+        "public-profile",
+        "publications"
+      ],
+      "target_types": [
+        "person",
+        "academic"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 100,
+      "enabled": true
+    },
+    {
+      "id": "researchgate",
+      "name": "ResearchGate",
+      "domain": "researchgate.net",
+      "categories": [
+        "academic",
+        "public-profile",
+        "publications"
+      ],
+      "target_types": [
+        "person",
+        "academic",
+        "organization"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 96,
+      "enabled": true
+    },
+    {
+      "id": "academia",
+      "name": "Academia.edu",
+      "domain": "academia.edu",
+      "categories": [
+        "academic",
+        "public-profile",
+        "publications"
+      ],
+      "target_types": [
+        "person",
+        "academic",
+        "organization"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 90,
+      "enabled": true
+    },
+    {
+      "id": "semanticscholar",
+      "name": "Semantic Scholar",
+      "domain": "semanticscholar.org",
+      "categories": [
+        "academic",
+        "public-profile",
+        "publications"
+      ],
+      "target_types": [
+        "person",
+        "academic",
+        "document",
+        "organization"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 95,
+      "enabled": true
+    },
+    {
+      "id": "crossref",
+      "name": "Crossref",
+      "domain": "crossref.org",
+      "categories": [
+        "academic",
+        "publications",
+        "documents"
+      ],
+      "target_types": [
+        "person",
+        "academic",
+        "document",
+        "organization"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 94,
+      "enabled": true
+    },
+    {
+      "id": "doi",
+      "name": "DOI",
+      "domain": "doi.org",
+      "categories": [
+        "academic",
+        "publications",
+        "documents"
+      ],
+      "target_types": [
+        "person",
+        "academic",
+        "document",
+        "organization"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 94,
+      "enabled": true
+    },
+    {
+      "id": "zenodo",
+      "name": "Zenodo",
+      "domain": "zenodo.org",
+      "categories": [
+        "academic",
+        "documents",
+        "publications",
+        "archive"
+      ],
+      "target_types": [
+        "person",
+        "academic",
+        "document",
+        "organization",
+        "developer"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 94,
+      "enabled": true
+    },
+    {
+      "id": "figshare",
+      "name": "Figshare",
+      "domain": "figshare.com",
+      "categories": [
+        "academic",
+        "documents",
+        "publications",
+        "archive"
+      ],
+      "target_types": [
+        "person",
+        "academic",
+        "document",
+        "organization"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 90,
+      "enabled": true
+    },
+    {
+      "id": "archiveorg",
+      "name": "Internet Archive",
+      "domain": "archive.org",
+      "categories": [
+        "archive",
+        "documents",
+        "publications"
+      ],
+      "target_types": [
+        "general",
+        "person",
+        "organization",
+        "company",
+        "domain",
+        "document",
+        "academic",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 94,
+      "enabled": true
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia",
+      "domain": "wikipedia.org",
+      "categories": [
+        "general",
+        "public-profile",
+        "organization",
+        "company",
+        "product"
+      ],
+      "target_types": [
+        "general",
+        "person",
+        "organization",
+        "company",
+        "academic",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 92,
+      "enabled": true
+    },
+    {
+      "id": "wikidata",
+      "name": "Wikidata",
+      "domain": "wikidata.org",
+      "categories": [
+        "general",
+        "public-profile",
+        "organization",
+        "company",
+        "product"
+      ],
+      "target_types": [
+        "general",
+        "person",
+        "organization",
+        "company",
+        "academic",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 91,
+      "enabled": true
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "domain": "youtube.com",
+      "categories": [
+        "social-public",
+        "conference",
+        "portfolio",
+        "news"
+      ],
+      "target_types": [
+        "general",
+        "person",
+        "username",
+        "organization",
+        "company",
+        "academic",
+        "developer",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 92,
+      "enabled": true
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "domain": "vimeo.com",
+      "categories": [
+        "social-public",
+        "conference",
+        "portfolio"
+      ],
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "academic",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 86,
+      "enabled": true
+    },
+    {
+      "id": "slideshare",
+      "name": "SlideShare",
+      "domain": "slideshare.net",
+      "categories": [
+        "conference",
+        "documents",
+        "portfolio",
+        "publications"
+      ],
+      "target_types": [
+        "person",
+        "organization",
+        "company",
+        "academic",
+        "document",
+        "product"
+      ],
+      "engines": [
+        "google",
+        "duckduckgo"
+      ],
+      "quality": 88,
+      "enabled": true
+    }
+  ]
+}
