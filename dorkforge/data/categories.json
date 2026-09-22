@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "database_version": "0.1.0",
+  "description": "DorkForge public-information query categories.",
+  "categories": [
+    {
+      "id": "general",
+      "name": "General",
+      "description": "General-purpose public information queries.",
+      "target_types": [
+        "general",
+        "person",
+        "username",
+        "organization",
+        "company",
+        "domain",
+        "document",
+        "academic",
+        "developer",
+        "product"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "exact-match",
+      "name": "Exact Match",
+      "description": "Queries that search for an exact target phrase.",
+      "target_types": [
+        "general",
+        "person",
+        "username",
+        "organization",
+        "company",
+        "domain",
+        "document",
+        "academic",
+        "developer",
+        "product"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "description": "Public professional profiles, biographies, roles, and experience.",
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "academic",
+      "name": "Academic",
+      "description": "Public academic profiles, publications, research, and conferences.",
+      "target_types": [
+        "person",
+        "academic",
+        "organization",
+        "document"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "documents",
+      "name": "Documents",
+      "description": "Public documents associated with a target.",
+      "target_types": [
+        "general",
+        "person",
+        "organization",
+        "company",
+        "domain",
+        "document",
+        "academic",
+        "product"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "developer",
+      "name": "Developer",
+      "description": "Public software development profiles, projects, and documentation.",
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "domain",
+        "developer",
+        "product"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "portfolio",
+      "name": "Portfolio",
+      "description": "Public portfolios, projects, creative work, and showcases.",
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "public-profile",
+      "name": "Public Profile",
+      "description": "Publicly available profile and about pages.",
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "developer"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "publications",
+      "name": "Publications",
+      "description": "Public articles, papers, books, and authored material.",
+      "target_types": [
+        "person",
+        "organization",
+        "company",
+        "document",
+        "academic"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "description": "Public news, interviews, announcements, and press coverage.",
+      "target_types": [
+        "general",
+        "person",
+        "organization",
+        "company",
+        "domain",
+        "product"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "organization",
+      "name": "Organization",
+      "description": "Public information about organizations and institutions.",
+      "target_types": [
+        "organization",
+        "company",
+        "academic"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "company",
+      "name": "Company",
+      "description": "Public corporate information, reports, leadership, and products.",
+      "target_types": [
+        "company",
+        "organization",
+        "product"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "product",
+      "name": "Product",
+      "description": "Public product documentation, reviews, releases, and resources.",
+      "target_types": [
+        "product",
+        "company",
+        "organization",
+        "developer"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "domain",
+      "name": "Domain",
+      "description": "Publicly indexed pages and resources belonging to an authorized domain.",
+      "target_types": [
+        "domain",
+        "organization",
+        "company"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "documentation",
+      "name": "Documentation",
+      "description": "Public manuals, guides, references, and technical documentation.",
+      "target_types": [
+        "domain",
+        "document",
+        "developer",
+        "product",
+        "organization",
+        "company"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "conference",
+      "name": "Conference",
+      "description": "Public conference programs, speaker pages, and presentations.",
+      "target_types": [
+        "person",
+        "organization",
+        "company",
+        "academic",
+        "document"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "government",
+      "name": "Government",
+      "description": "Public government publications, reports, and official pages.",
+      "target_types": [
+        "general",
+        "person",
+        "organization",
+        "company",
+        "document"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "archive",
+      "name": "Archive",
+      "description": "Public archives and historical references.",
+      "target_types": [
+        "general",
+        "person",
+        "organization",
+        "company",
+        "domain",
+        "document",
+        "product"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "username",
+      "name": "Username",
+      "description": "Public pages where an exact username appears.",
+      "target_types": [
+        "username",
+        "developer"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "social-public",
+      "name": "Public Social Presence",
+      "description": "Public social and community pages associated with a target.",
+      "target_types": [
+        "person",
+        "username",
+        "organization",
+        "company",
+        "product"
+      ],
+      "enabled": true
+    }
+  ]
+}
