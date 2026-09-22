@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dorkforge"
+version = "0.1.0"
+description = "Offline search-query generator for Google and DuckDuckGo"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "MNYTC" }
+]
+keywords = [
+    "osint",
+    "query-generator",
+    "google",
+    "duckduckgo",
+    "cli"
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search"
+]
+dependencies = []
+
+[project.scripts]
+dorkforge = "dorkforge.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["dorkforge*"]
+
+[tool.setuptools.package-data]
+dorkforge = [
+    "data/*.json",
+    "data/*.jsonl"
+]
